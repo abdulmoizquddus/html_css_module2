@@ -1,1 +1,64 @@
-
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: Bookman, URW Bookman L, sans-serif;
+    margin-bottom: 50px;
+}
+section{
+    padding: 2%;
+}
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+    border: 2px solid black; 
+    float: left;
+    font-size: 18px;
+    height: 200px;
+    padding: 0px;
+}
+p{ 
+    margin: 0%;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin: 0px;
+    border: 2px solid black;
+    width: 20%;
+    position: relative;
+    bottom: 0% ;
+    left: 80.2%;
+}
+#s1title{
+    background-color: brown;
+}
+#s2title{
+    background-color: burlywood;
+}
+#s3title{
+    background-color: #ffff50;
+}
+@media(min-width:992px){
+    .col-lg-3, .col-md-6, .col-md-12{
+        margin: 2%;
+        float: left;
+        width: 29%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .col-lg-3, .col-md-6, .col-md-12{
+        margin: 1%;
+        float: left;
+        width: 48%;
+    }    
+}
+@media (max-width:767px){
+    .col-lg-3, .col-md-6, .col-md-12{
+        margin: 1%;
+        float: left;
+        width: 100%;
+    }    
+}
